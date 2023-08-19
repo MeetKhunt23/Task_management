@@ -1,0 +1,56 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid grey;
+    padding: 5px 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.nav-item a{
+    color: rgb(255, 254, 254);
+    background-color: gray;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar{
+    width: 20%;
+    /* background-color: grey; */
+}
+
+.main-menu{
+    width: 80%;
+    /* background-color: grey; */
+
+}
+
+.sidebarmenubtns{
+    width: 100%;
+    height: 50px;
+}
+
+
+li{
+    list-style: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebaritems{
+    margin-top: 10px;
+}
+
+.sidebarmenu{
+    width: 20%;
+    flex: 2 1;
+    position: sticky;
+    height: 100vh;
+    overflow: scroll;
+}

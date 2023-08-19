@@ -1,0 +1,73 @@
+.project_input{
+    width:60%;
+    margin-left: 20%;
+    position: absolute;
+    top: 80px;
+    height:50px
+
+}
+.project_input2{
+    width:30%;
+    margin-left: 35%;
+    position: absolute;
+    top: 150px;
+    height:50px
+
+}
+
+.tablelist{
+    width: 80%;
+    /* margin-left: 22%; */
+    position: absolute;
+    left: 20%;
+}
+
+.addmilestone{
+    width: 60%;
+    /* margin-left: 22%; */
+    position: absolute;
+    left: 30%;
+    margin-top: 30px;
+}
+
+.milestoneinput{
+    margin-top: 30px;
+    height: 60px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.selectprojectoptions{
+    width: 60%;
+
+}
+
+/* .addmilestone{
+    display: none;
+} */
+
+.addtaskbtn{
+    margin-top: 20px;
+}
+
+.estimatedtime{
+    margin-top: 20px;
+}
+
+.milestonewithadd{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.addanothermilestone{
+    font-size:35px;
+    margin-left: 20px;
+
+}
+
+.statusicons{
+    display: flex;
+    
+}
+
